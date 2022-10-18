@@ -13,7 +13,7 @@ public class shuffle {
             numArr[0] = numArr[n];   //그리고 배열 첫번째 인덱스에 해당하는 수를 numArr[랜덤숫자] 값으로 덮음
             numArr[n] = tmp; //그리고 랜덤한 숫자에 해당하는 인덱스의 값에 아까 저장해둔 numArr[0] 값을 넣어줌
 
-            //이렇게 100번을 반복해줌.....
+            //이렇게 100번을 반복해줌......
         }
         System.out.println(Arrays.toString(numArr));
     }
